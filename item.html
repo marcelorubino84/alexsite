@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/item.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Tangerine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Navigation starts here  -->
+	<nav>
+		<h1 class="logo">LOGO</h1>
+		<ul class="nav_links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="uberuns.html">Uber-uns</a></li>
+			<li><a href="holz.html">Holz</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<li><a href="work.html">Work</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		<!-- Hamburguer icon for mobile view -->
+		<div class="burger">
+			<div class="line-1"></div>
+			<div class="line-2"></div>
+			<div class="line-3"></div>
+		</div>
+	</nav>
+
+	<section class="holz-section">
+		
+		<div class="top-row">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					<div class="carousel">
+					    
+					    <div class="items"> 
+					    	<img src="images/plate-1.jpg"/>
+					    </div>
+				    	<div class="description">
+
+				        	<h4>LONG THICK WOODEN PLATE</h4>
+				        	<p class="price">23,50€</p>
+							<select name="select">
+  								<option value="value1">30 cm's</option> 
+ 								<option value="value2" selected>50 cm's</option>
+  								<option value="value3">70 cm's</option>
+							</select>
+							
+
+						
+							<form action="/action_page.php" class="quantity_form">
+								<h4 class="quantity_text">Quantity:</h4> 
+								<input type="number" name="quantity"
+								min="1" max="5" step="1" value="1" class="input_box">
+								<button type="submit">SUBMIT</button>
+							</form>
+							
+							<P>This plate is made with love This plate is made with love This plate is made with love This plate is made with love This plate is made with love This plate is made with love</P>
+						
+							
+				        </div>
+
+					    
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		</div>
+
+	</section>	
+
+
+
+
+	
+
+	<footer>
+
+		<div class="footer">
+			
+			<div class="line-up">
+
+				<div class="footer-nav">
+
+					<ul class="explore">
+						<h4>EXPLORE</h4>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="uberuns.html">UBER UNS</a></li>
+						<li><a href="holz.html">HOLZ</a></li>
+						<li><a href="shop.html">SHOP</a></li>
+						<li><a href="work.html">WORK</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+					<ul class="legal">
+						<h4>LEGAL</h4>
+						<li><a href="terms.html">Terms of service</a></li>
+						<li><a href="privacy.html">Privacy</a></li>
+						<li><a href="site.html">Site map</a></li>
+					</ul>
+
+					<div class="text-left">
+						<h1>Get in Touch</h1>
+						<hr>
+						<p>If you have a press inquiry, collaboration idea, or just want to chat, send us a little note and we'll get back to you soon!</p>
+						<hr>
+						<a href="" target="_blank"><p>Alex@woodcraft.com</p></a>
+
+					</div>
+
+				</div>
+
+				<div id="map"></div>
+
+			</div>
+
+			<hr class="hr-footer">
+
+			<p class="copywrite">&copy; Alexander Brandl. <span class="italic-style">2019 all rights reserved.</span></p>
+
+		</div>
+		
+	</footer>
+
+
+
+
+
+
+
+	<script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChFcux_LhsTltv8_xEdGgTClr0k4QDDqw&callback=initMap"
+    async defer></script>
+	
+	<script src="app.js"></script>
+
+
+</body>
+</html>
